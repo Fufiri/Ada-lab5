@@ -1,0 +1,82 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U listhantering%b	listhantering.adb	86775799 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W hero_handling%s	hero_handling.adb	hero_handling.ali
+W sorted_hero_list%s	sorted_hero_list.adb	sorted_hero_list.ali
+W string_handling%s	string_handling.adb	string_handling.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D hero_handling.ads	20181119104901 cd808d0c
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D listhantering.adb	20181126072730 b0370f83
+D sorted_hero_list.ads	20181112101717 524b2e44
+D string_handling.ads	20181112101518 67ad8722
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 1r45 2r6 2r45
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 16|2w10 2r49
+X 9 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 1r49
+166U14*New_Line 16|22s4
+242U14*Put 16|27s7
+X 13 hero_handling.ads
+5K9*Hero_Handling 30e18 16|4w6 4r45
+7R9*Hero_Type 28e17 16|10r16
+9U14*Get 16|13s4 14s4 15s4
+X 16 listhantering.adb
+8U11*listhantering 8b11 32l5 32t18
+9p1 List{17|7P8} 17m11 17r11 18m11 18r11 19m11 19r11 23r9 25m11 25r11 26r14
+. 31m11 31r11
+10r1 HT{13|7R9} 13m8 17r17 26r19
+10r5 HT2{13|7R9} 14m8 18r17 23m15 23r15 25r17
+10r10 HT3{13|7R9} 15m8 19r17
+X 17 sorted_hero_list.ads
+5K9*Sorted_Hero_List 16|3w6 3r45 17|29e21
+7P8*List_Type(6R8) 16|9r8
+9U11*Insert 16|17s4 18s4 19s4
+13V10*Member{boolean} 16|26s7
+14U11*Remove 16|25s4
+15U11*Delete 16|31s4
+17U11*Find 16|23s4
+X 18 string_handling.ads
+1K9*String_Handling 16|5w6 5r45 18|16e20
+

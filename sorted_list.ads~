@@ -1,0 +1,8 @@
+package Sorted_List is
+   
+   type List_Type is private
+     
+     
+     private
+     
+end Sorted_List;

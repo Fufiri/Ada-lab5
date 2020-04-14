@@ -1,0 +1,25 @@
+with Ada.Text_IO;			use Ada.Text_IO;
+with Ada.Integer_Text_IO;		use Ada.Integer_Text_IO;
+with Sorted_Hero_List;                  use Sorted_Hero_List;
+with Hero_Handling;                     use Hero_Handling;
+with String_Handling;                   use String_Handling;
+
+
+procedure listhantering is
+List : List_Type;
+HT, HT2, HT3 : Hero_Type;
+begin
+
+   Get(HT);
+   Get(HT2);
+  -- Get(HT3);
+   
+   Insert(List, HT);
+   Insert(List, HT2);
+ --  Insert(List, HT3);
+   
+
+   New_Line;
+  -- Remove(List, HT2); 
+   Find(List, HT2);
+end listhantering;

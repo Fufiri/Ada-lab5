@@ -1,0 +1,98 @@
+V "GNAT Lib v4.8"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK
+
+U hero_handling%b	hero_handling.adb	7e78c418 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W string_handling%s	string_handling.adb	string_handling.ali
+
+U hero_handling%s	hero_handling.ads	bdecc42a EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W string_handling%s	string_handling.adb	string_handling.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D hero_handling.ads	20181119104901 cd808d0c
+D hero_handling.adb	20181119095738 fbf9f5e6
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D string_handling.ads	20181112101518 67ad8722
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 1r31 2r6 2r29 14|1r6 1r23 2r6 2r31 3r6 3r29 32r4 73r4
+X 4 a-flteio.ads
+20K13*Float_Text_IO[10|45] 13|2w10 2r33 14|3w10 3r33 32r8 73r8
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 13|1w10 1r35 14|2w10 2r35
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r27
+73I12*Field{integer}
+166U14*New_Line 14|61s4 65s4 71s4 75s4
+242U14*Put 14|19s4 23s4 27s4 31s4 35s4 58s4 62s4 66s4 72s4 76s4
+X 10 a-tiflio.ads
+56U14*Get 14|32s22[4|20]
+67U14*Put 14|73s22[4|20]
+X 11 a-tiinio.ads
+55U14*Get 14|24s4[5|18]
+65U14*Put 14|63s4[5|18]
+67i7 Width{9|73I12} 14|63r18[5|18]
+X 13 hero_handling.ads
+5K9*Hero_Handling 30l5 30e18 14|6b14 101l5 101t18
+7R9*Hero_Type 9r28 10r27 11r26 19c9 28e17 14|11r25 50r24 92r23
+9U14*Get 9<18 14|11b11 47l5 47t8
+9r18 Item{7R9} 14|11b15 21m4 25m4 28m8 28r8 33m4 37m4
+10U14*Put 10>18 14|50b11 89l5 89t8
+10r18 Item{7R9} 14|50b15 59r8 63r8 67r10 68r8 73r26 77r8
+11V13*Age{integer} 11>17 14|92b10 98l5 98t8
+11r17 Item{7R9} 14|92b14 96r11
+21r10*Name{17|3R9} 14|21m9 59r13
+22i10*Age{integer} 14|25m9 63r13 96r16
+23r10*Sex{17|3R9} 14|28m13 67r15 68r13
+24f10*Weight{float} 14|33m9 73r31
+25r10*HColor{17|3R9} 14|37m9 77r13
+X 14 hero_handling.adb
+13r4 ST{17|3R9} 20m8 21r17 36m8 37r19
+14i4 I{integer} 24m8 25r16
+15f4 F{float} 32m26 33r19
+52r4 XT{17|3R9} 67m4
+X 17 string_handling.ads
+1K9*String_Handling 13|3w6 3r27 14|4w6 4r27 17|16e20
+3R9*String_Type 13|21r17 23r16 25r19 14|13r8 52r8 17|14e16
+5U14*Get 14|20s4 28s4 36s4
+6U14*Put 14|59s4 68s4 77s4
+

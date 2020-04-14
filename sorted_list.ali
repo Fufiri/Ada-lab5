@@ -1,0 +1,114 @@
+V "GNAT Lib v4.8"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U sorted_list%b		sorted_list.adb		0a1eac84 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+
+U sorted_list%s		sorted_list.ads		06639c54 EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D sorted_list.ads	20181112093313 c845e024
+D sorted_list.adb	20181112093125 33011271
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r45 2r6 2r45 15|1r6 48r7
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 14|2w10 2r49
+X 8 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r49
+73I12*Field{integer}
+242U14*Put 15|31s3
+X 9 a-tiinio.ads
+65U14*Put 15|30s3[4|18]
+67i7 Width{8|73I12} 15|30r18[4|18]
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 15|1w10 48r11
+X 14 sorted_list.ads
+4K9*sorted_list 31l5 31e16 15|2b14 99l5 99t16
+5R8*e_type 18r26 20c6 24e13 15|15r18 18r14 48r34
+6P8*list_type(5R8) 8r31 9r25 10r26 11r24 12r26 13r31 14r31 15r24 16r25 18c6
+. 23r11 15|4r25 9r31 10r12 27r24 36r26 48r42 50r31 51r12 64r31 74r24 85r25
+. 90r26
+7X3*Null_Error 15|54r11 77r11
+8U11*Insert 8=18 8>42 15|9b11 20s3 25l5 25t11
+8p18 List{6P8} 15|9b18 12r13 14r12 15m6 16r7 17r15 18m3 20r10
+8i42 I{integer} 15|9b42 12r19 15r34 16r19 18r30 20r21
+9V10*Empty{boolean} 9>16 15|4b10 7l5 7t10 14s6 29s10 38s6 53s6 66s6 76s6
+9p16 List{6P8} 15|4b16 6r10
+10V10*Length{natural} 10>17 15|90b10 95s16 97l5 97t11
+10p17 List{6P8} 15|90b17 92r6 95r23
+11U11*Put 11>15 15|27b11 32s3 34l5 34t8
+11p15 list{6P8} 15|27b15 29r16 30r7 32r7
+12V10*Member{boolean} 12>17 12>37 15|12s6 36b10 43s12 45l5 45t11
+12p17 list{6P8} 15|36b17 38r12 40r9 43r19
+12i37 item{integer} 15|36b37 40r21 43r30
+13U11*Remove 13=18 13>42 15|50b11 60s5 62l5 62t11
+13p18 list{6P8} 15|50b18 53r12 55r9 56r17 57m10 58m5 60r12
+13i42 item{integer} 15|50b42 55r21 60r23
+14U11*Delete 14=18 15|64b11 69s3 72l5 72t11
+14p18 list{6P8} 15|64b18 66r12 67m8 69r10 70m8
+15V10*Find{integer} 15>15 15>35 15|74b10 81s12 83l5 83t9 87s10
+15p15 list{6P8} 15|74b15 76r12 78r9 79r12 81r17
+15i35 item{integer} 15|74b35 78r21 81r28
+16U11*Find 16>16 16=36 15|85b11 88l5 88t9
+16p16 list{6P8} 15|85b16 87r15
+16i36 item{integer} 15|85b36 87m3 87r20
+22i5*Data{integer} 15|15m26 16r12 18m22 30r12 40r14 55r14 78r14 79r17
+23p5*Next{6P8} 15|15m37 18m33 20m15 32r12 43r24 56r22 60m17 66r17 69m15 81r22
+. 95r28
+X 15 sorted_list.adb
+10p1 temp_list{14|6P8} 17m3 18r41
+47U11 Free[11|20] 57s5 67s3 70s3
+51p1 temp_list{14|6P8} 56m5 58r12
+

@@ -1,0 +1,62 @@
+V "GNAT Lib v4.8"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK
+
+U string_handling%b	string_handling.adb	a0dea52d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U string_handling%s	string_handling.ads	67ad8722 EE NE OO PK
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D string_handling.ads	20181112101518 67ad8722
+D string_handling.adb	20181112100937 ff1ed7db
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+172V13*End_Of_Line{boolean} 12|11s17
+206U14*Get 12|10s7
+208U14*Put 12|22s7
+X 11 string_handling.ads
+1K9*String_Handling 16l5 16e20 12|3b14 28l5 28t20
+3R9*String_Type 5r28 6r27 10c10 14e16 12|6r25 18r24
+5U14*Get 5<18 12|6b11 15l5 15t8
+5r18 Item{3R9} 12|6b15 10m11 10r11 13m7
+6U14*Put 6>18 12|18b11 25l5 25t8
+6r18 Item{3R9} 12|18b15 21r16 22r11
+12a7*Text{string} 12|10m16 22r16
+13i7*Length{integer} 12|13m12 21r21
+X 12 string_handling.adb
+9i8 I{integer} 10r21 13r22
+21i8 I{integer} 22r21
+
